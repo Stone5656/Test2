@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttractionsRanking">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/kiyomizu_text"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:background="#CCFFFFFF"
+            android:gravity="center"
+            android:text="@string/kiyomizudera_text"
+            android:textSize="14sp"
+            android:translationZ="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/kiyomizu_button"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/keage_text"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:background="#CCFFFFFF"
+            android:gravity="center"
+            android:text="@string/keage_text"
+            android:textSize="14sp"
+            android:translationZ="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/keyaki_button"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/kinkaku_text"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:background="#CCFFFFFF"
+            android:gravity="center"
+            android:text="@string/kinkaku_text"
+            android:textSize="14sp"
+            android:translationZ="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/kinkaku_button"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/three_st_text"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/three_rd_text"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/ginkaku_button"
+            app:layout_constraintEnd_toStartOf="@+id/kinkaku_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/two_st_text" />
+
+        <TextView
+            android:id="@+id/one_st_text"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/one_st_text"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/two_st_text"
+            app:layout_constraintEnd_toStartOf="@+id/kiyomizu_button"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/where_do_you_go" />
+
+        <TextView
+            android:id="@+id/two_st_text"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/two_nd_text"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/three_st_text"
+            app:layout_constraintEnd_toStartOf="@+id/keyaki_button"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kiyomizu_button" />
+
+        <ImageButton
+            android:id="@+id/ginkaku_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/spring_ginkakuji"
+            app:layout_constraintBottom_toTopOf="@+id/yasaka_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kinkaku_button" />
+
+        <ImageButton
+            android:id="@+id/ryoan_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/spring_ryuanji"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kennin_button" />
+
+        <ImageButton
+            android:id="@+id/gosho_button"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:src="@drawable/spring_gosho"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ryoan_button" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:src="@drawable/_0190712_202201"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/gosho_button"
+            app:layout_constraintTop_toBottomOf="@+id/ryoan_button" />
+
+        <ImageButton
+            android:id="@+id/yasaka_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/spring_yasaka"
+            app:layout_constraintBottom_toTopOf="@+id/kennin_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ginkaku_button" />
+
+        <ImageButton
+            android:id="@+id/kiyomizu_button"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:src="@drawable/spring_kiyomizu"
+            app:layout_constraintBottom_toTopOf="@+id/keyaki_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/where_do_you_go"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/keyaki_button"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:src="@drawable/spring_keage"
+            app:layout_constraintBottom_toTopOf="@+id/kinkaku_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kiyomizu_text"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/kinkaku_button"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:src="@drawable/summer_kinkakuji"
+            app:layout_constraintBottom_toTopOf="@+id/ginkaku_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/keage_text" />
+
+        <ImageButton
+            android:id="@+id/kennin_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/spring_kenninji"
+            app:layout_constraintBottom_toTopOf="@+id/ryoan_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/yasaka_button" />
+
+        <TextView
+            android:id="@+id/where_do_you_go"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/where_do_you_go"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/one_st_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/see_more_button"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="158dp"
+            android:layout_height="42dp"
+            android:text="@string/see_more"
+            android:textColor="@color/black"
+            android:textColorLink="#000000"
+            android:textSize="16sp"
+            app:iconTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gosho_button"
+            app:strokeColor="@color/black"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/map_toot_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/see_more_button"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
+
+        <TextView
+            android:id="@+id/ginkaku_text"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:background="#CCFFFFFF"
+            android:gravity="center"
+            android:text="@string/ginkaku_text"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/ginkaku_button"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/yasaka_text"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:background="#CCFFFFFF"
+            android:gravity="center"
+            android:text="@string/yasaka_text"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/yasaka_button"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/kennin_text"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:background="#CCFFFFFF"
+            android:gravity="center"
+            android:text="@string/kennin_text"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/kennin_button"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/ryouan_text"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:background="#CCFFFFFF"
+            android:gravity="center"
+            android:text="@string/ryouan_text"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/ryoan_button"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/festivals_text"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:background="#CCFFFFFF"
+            android:gravity="center"
+            android:text="@string/festivals"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton9"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton9" />
+
+        <TextView
+            android:id="@+id/sakura_spots_text"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:background="#CCFFFFFF"
+            android:gravity="center"
+            android:text="@string/sakura_spots_text"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/gosho_button"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton9" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

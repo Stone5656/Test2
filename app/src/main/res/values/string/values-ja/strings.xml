@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">テスト</string>
+    <string name="start">スタート</string>
+    <string name="are_you_ready">準備はいいですか？</string>
+    <string name="Kyoto">京都</string>
+    <string name="want_to_go">どこへ行きますか？</string>
+    <string name="SepNov">9月~11月</string>
+    <string name="JunAug">6月~8月</string>
+    <string name="MarMay">3月~5月</string>
+    <string name="DecFeb">12月~2月</string>
+    <string name="when_go_season">いつの季節に行きますか？</string>
+</resources>

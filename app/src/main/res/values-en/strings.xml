@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test App</string>
+    <string name="want_to_go">Where do you want to go</string>
+    <string name="kyoto">Kyoto</string>
+    <string name="are_you_ready">Are you ready?</string>
+    <string name="start">start</string>
+    <string name="when_go_season">When do you go in season?</string>
+    <string name="MarMay">Mar.~May.</string>
+    <string name="JunAug">Jun.~Aug.</string>
+    <string name="SepNov">Sep.~Nov.</string>
+    <string name="DecFeb">Dec.~Feb.</string>
+    <string name="one_st_text">1st</string>
+    <string name="two_nd_text">2nd</string>
+    <string name="three_rd_text">3rd</string>
+    <string name="kiyomizudera_text">Kiyomizu Temple</string>
+    <string name="kinkaku_text">Kinkaku Temple</string>
+    <string name="keage_text">Keage Incline</string>
+    <string name="where_do_you_go">Where do you go?</string>
+    <string name="see_more">see more</string>
+    <string name="ginkaku_text">Ginkakuji Temple</string>
+    <string name="yasaka_text">Yasaka Shrine</string>
+    <string name="kennin_text">Kennninji Temple</string>
+    <string name="ryouan_text">Ryoanji Temple</string>
+    <string name="festivals">Festivals</string>
+    <string name="sakura_spots_text">Sakura Spots</string>
+    <string name="default_text">default text</string>
+</resources>

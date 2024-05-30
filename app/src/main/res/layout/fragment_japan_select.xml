@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JapanSelect">
+
+    <ImageView
+        android:id="@+id/japan_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:src="@drawable/map_japan_10006"
+        android:translationY="300dp"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/kyoto_button"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:strokeColor="#646464"
+        android:text="@string/kyoto"
+        android:textColor="#646464"
+        android:textSize="24sp"
+        android:translationX="125dp"
+        android:translationY="240dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/want_to_go"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:translationY="80dp" />
+</FrameLayout>

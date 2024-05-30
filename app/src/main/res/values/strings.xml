@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">テストアプリ</string>
+    <string name="want_to_go">どこに行きますか？</string>
+    <string name="kyoto">京都</string>
+    <string name="are_you_ready">準備はいいですか？</string>
+    <string name="start">スタート</string>
+    <string name="when_go_season">どの季節に行きますか？</string>
+    <string name="MarMay">3月～5月</string>
+    <string name="JunAug">6月～8月</string>
+    <string name="SepNov">9月～11月</string>
+    <string name="DecFeb">12月～2月</string>
+    <string name="one_st_text">1位</string>
+    <string name="two_nd_text">2位</string>
+    <string name="three_rd_text">3位</string>
+    <string name="kiyomizudera_text">清水寺</string>
+    <string name="kinkaku_text">金閣寺</string>
+    <string name="keage_text">蹴上</string>
+    <string name="where_do_you_go">どこに行きますか？</string>
+    <string name="see_more">もっと見る</string>
+    <string name="ginkaku_text">銀閣寺</string>
+    <string name="yasaka_text">八坂神社</string>
+    <string name="kennin_text">建仁寺</string>
+    <string name="ryouan_text">竜安寺</string>
+    <string name="festivals">祭り</string>
+    <string name="sakura_spots_text">桜スポット</string>
+    <string name="default_text">デフォルトテキスト</string>
+</resources>

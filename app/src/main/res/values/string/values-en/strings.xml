@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test</string>
+    <string name="start">Start</string>
+    <string name="are_you_ready">Are you ready?</string>
+    <string name="Kyoto">Kyoto</string>
+    <string name="want_to_go">Where do you want to go?</string>
+    <string name="SepNov">Sep.~Nov.</string>
+    <string name="JunAug">Jun.~Aug.</string>
+    <string name="MarMay">Mar.~May.</string>
+    <string name="DecFeb">Dec.~Feb.</string>
+    <string name="when_go_season">When do you go in season?</string>
+</resources>

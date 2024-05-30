@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".SeasonSelect" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/autumn_image"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/dsc_0167"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/summer_image"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/summer_image"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/_0230505_123720"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spring_image"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/spring_image"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/_0220405_150345"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/winter_image"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/winter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/autumn_image"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#00FFFFFF"
+            app:icon="@android:drawable/ic_menu_revert"
+            app:iconPadding="0dp"
+            app:iconTint="#404040"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/winter_image"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/home_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="#00FFFFFF"
+            app:icon="@drawable/ic_launcher_foreground"
+            app:iconTint="#474747"
+            app:iconTintMode="src_in"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/back_button"
+            app:layout_constraintTop_toBottomOf="@+id/winter_image"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/mar_may_text"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:background="#B3FFFFFF"
+            android:text="@string/MarMay"
+            android:textAlignment="center"
+            android:textColor="#777777"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/summer_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/jun_aug_text"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:background="#B3FFFFFF"
+            android:text="@string/JunAug"
+            android:textAlignment="center"
+            android:textColor="#777777"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/autumn_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:background="#B3FFFFFF"
+            android:text="@string/SepNov"
+            android:textAlignment="center"
+            android:textColor="#777777"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/winter_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:background="#B3FFFFFF"
+            android:text="@string/DecFeb"
+            android:textAlignment="center"
+            android:textColor="#777777"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/winter_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/when_go_season"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:text="@string/when_go_season"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/spring_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

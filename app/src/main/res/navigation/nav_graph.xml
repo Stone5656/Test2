@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/start_home_nav"
+    tools:ignore="InvalidNavigation">
+
+    <fragment
+        android:id="@+id/start_home_nav"
+        android:name="com.example.test2.StartHome"
+        android:label="StartHomeFrag">
+        <action
+            android:id="@+id/action_StartFrag_to_JapanFrag"
+            app:destination="@id/japan_select_nav" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/japan_select_nav"
+        android:name="com.example.test2.JapanSelect"
+        android:label="JapanSelectFrag">
+        <action
+            android:id="@+id/action_JapanFrag_to_SeasonFrag"
+            app:destination="@id/season_select_nav" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/season_select_nav"
+        android:name="com.example.test2.SeasonSelect"
+        android:label="SeasonSelectFrag" />
+        <action
+            android:id="@+id/action_SeasonFrag_to_AttractionFrag"
+            app:destination="@id/attractions_ranking_nav" />
+        <action
+            android:id="@+id/action_SeasonFrag_to_JapanFrag"
+            app:destination="@id/japan_select_nav" />
+        <action
+            android:id="@+id/action_SeasonFrag_to_StartFrag"
+            app:destination="@id/start_home_nav" />
+    <fragment
+        android:id="@+id/attractions_ranking_nav"
+        android:name="com.example.test2.SeasonSelect"
+        android:label="AttractionsRankingFrag" />
+        <action
+            android:id="@+id/action_AttractionFrag_to_SeeMoreFrag"
+            app:destination="@id/see_more_attractions_nav" />
+        <action
+            android:id="@+id/action_AttractionFrag_to_JapanFrag"
+            app:destination="@id/japan_select_nav" />
+        <action
+            android:id="@+id/action_AttractionFrag_to_StartFrag"
+            app:destination="@id/start_home_nav" />
+    <fragment
+        android:id="@+id/see_more_attractions_nav"
+        android:name="com.example.test2.SeeMoreAttractions"
+        android:label="SeeMoreAttractionsFrag" />
+        <action
+            android:id="@+id/action_SeeMoreFrag_to_HogeHoge"
+            app:destination="@+id/hogehoge_nav"/>
+</navigation>
